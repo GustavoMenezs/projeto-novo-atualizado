@@ -1,0 +1,65 @@
+:root{
+    --cor-primaria: #fff;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos da seção de vendas */
+.sales-history {
+    margin: 20px;
+}
+
+.sale {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.TituloArt{
+    padding-right: 20rem;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.PrecoHist{
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.cor-nav{
+    color: var(--cor-primaria);
+}
+
+.sale-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.artist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
